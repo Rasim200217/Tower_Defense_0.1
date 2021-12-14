@@ -889,12 +889,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myTower: 1
-  _bulletDamage: 5
+  _bulletDamage: 2
   _bulletSpeed: 15
   _fireRange: 20
-  _fireRite: 5
+  _fireRite: 2
   _myCost: 10
-  _updateCost: 20
+  _updateCost: 40
   _explosionRadius: 0
   myEffects: 0
   _bulletPref: {fileID: 7482437701080884211, guid: ba7039394e05dc340b6d615ad4a39ea8,

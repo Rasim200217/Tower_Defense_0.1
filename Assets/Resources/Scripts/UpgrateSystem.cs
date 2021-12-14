@@ -20,15 +20,17 @@ public class UpgrateSystem
 
     private void CrossbowUpgrate(TowerScript tower)
     {
-        tower._bulletDamage = 13;
+        tower._fireRite = 5;
+        tower._bulletDamage = 6;
         tower.myEffects = TowerScript.Effects.poison;
         tower.UpgrateMesh(1);
     }
 
     private void ArchersUpgrate(TowerScript tower)
     {
-        tower._bulletDamage = 8;
-        tower.myEffects = TowerScript.Effects.fire;
+        tower._fireRite = 3;
+        tower._bulletDamage = 4;
+        tower.myEffects = TowerScript.Effects.freeze;
         tower.UpgrateMesh(0);
     }
 
