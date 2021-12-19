@@ -178,10 +178,10 @@ MonoBehaviour:
   myTower: 2
   _bulletDamage: 14
   _bulletSpeed: 12
-  _fireRange: 20
+  _fireRange: 30
   _fireRite: 10
   _myCost: 100
-  _updateCost: 70
+  _updateCost: 140
   _explosionRadius: 10
   myEffects: 0
   _bulletPref: {fileID: 2907584913074348139, guid: 68f189a29c9db4e4ab1bbc0253c0fec6,

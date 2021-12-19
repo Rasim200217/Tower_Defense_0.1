@@ -356,7 +356,7 @@ MonoBehaviour:
   _cost: 12
   HealthBar: {fileID: 3571004960864596617}
   _freezeMaxAmount: 5
-  myEnemie: 2
+  myEnemie: 0
 --- !u!1 &930795329960513654
 GameObject:
   m_ObjectHideFlags: 0
