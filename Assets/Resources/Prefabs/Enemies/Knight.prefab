@@ -14638,10 +14638,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da2f1a7058e087a45864c3bfbf51d34c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 4
+  _speed: 8
   _mySpeed: 5
-  _health: 70
-  _cost: 10
+  _health: 90
+  _cost: 15
   HealthBar: {fileID: 4123223141123698131}
   _freezeMaxAmount: 5
   myEnemie: 2

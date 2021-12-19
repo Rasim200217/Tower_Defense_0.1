@@ -45,6 +45,7 @@ public class UpgrateSystem
     {
         tower._bulletDamage = 16;
         tower._explosionRadius = 6;
+        tower.myEffects = TowerScript.Effects.fire;
         tower.UpgrateMesh(3);
     }
 }

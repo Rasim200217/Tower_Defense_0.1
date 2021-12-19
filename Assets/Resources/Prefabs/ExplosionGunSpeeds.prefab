@@ -190,12 +190,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myTower: 3
   _bulletDamage: 12
-  _bulletSpeed: 10
-  _fireRange: 15
+  _bulletSpeed: 14
+  _fireRange: 20
   _fireRite: 15
-  _myCost: 40
+  _myCost: 60
   _updateCost: 80
-  _explosionRadius: 3
+  _explosionRadius: 8
   myEffects: 0
   _bulletPref: {fileID: 2907584913074348139, guid: 68f189a29c9db4e4ab1bbc0253c0fec6,
     type: 3}

@@ -127,6 +127,7 @@ public class TowerScript : MonoBehaviour
         but.interactable = PlayerStats.Money >= _updateCost && !_isUpgraded;
 
         Manager.TowerMenu(_myCanvas);
+        
     }
 
 
@@ -142,6 +143,7 @@ public class TowerScript : MonoBehaviour
 
             Manager.TowerMenu(_myCanvas);
         }
+        _myCanvas.SetActive(false);
     }
 
 
@@ -151,6 +153,7 @@ public class TowerScript : MonoBehaviour
         if (_isUpgraded) PlayerStats.Money += _updateCost / 2;
       myBuildPoint.isBuilded = false;
         Destroy(gameObject);
+        _myCanvas.SetActive(false);
     }
 
     private void OnDrawGizmosSelected()

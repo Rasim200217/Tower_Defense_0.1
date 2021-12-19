@@ -33,7 +33,7 @@ public class SpawnerScript : MonoBehaviour
         {
             for (int j = 0; j < wave.packs[i].count; j++)
             {
-                Enemy enemie = Instantiate(_enemiePrefabs[(int)wave.packs[i].enemie], transform.position, Quaternion.identity).GetComponent<Enemy>();
+                Enemy enemie = Instantiate(_enemiePrefabs[(int)wave.packs[i].enemie], transform.position, Quaternion.Inverse(Quaternion.identity)).GetComponent<Enemy>();
                 enemie.SetSide((int)mySide);
                 yield return new WaitForSeconds(wave.pauseVoln);
             }

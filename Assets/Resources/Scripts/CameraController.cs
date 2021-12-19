@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public float cameraSpeed = 30f;
+    public float cameraSpeed = 60f;
     public float border = 10f;
 
-    public float scrollSpeed = 5f;
+    public float scrollSpeed = 8f;
     public float minY = 10f;
-    public float maXY = 50f;
+    public float maXY = 30f;
     
 
 
@@ -40,5 +40,6 @@ public class CameraController : MonoBehaviour
         pos.y = Mathf.Clamp(pos.y, minY, maXY);
 
         transform.position = pos;
+
     }
 }

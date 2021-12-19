@@ -264,8 +264,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719585788447252984}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -467.35544, y: 509.3925, z: -44.502224}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6384941742358700912}
@@ -277,7 +277,7 @@ Transform:
   - {fileID: 716417560228383556}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &686639031597946856
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -352,8 +352,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 4
   _mySpeed: 5
-  _health: 70
-  _cost: 10
+  _health: 80
+  _cost: 12
   HealthBar: {fileID: 3571004960864596617}
   _freezeMaxAmount: 5
   myEnemie: 2

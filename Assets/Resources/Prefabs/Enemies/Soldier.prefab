@@ -4939,7 +4939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854922283093859699}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -480.35056, y: 530.9189, z: -50.943153}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2026161841162011767}
@@ -5026,7 +5026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 5
   _mySpeed: 5
-  _health: 70
+  _health: 40
   _cost: 10
   HealthBar: {fileID: 2102899094640483368}
   _freezeMaxAmount: 5
